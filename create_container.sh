@@ -1,0 +1,1 @@
+docker run --name bert --gpus all --network=host --ipc=host --privileged --restart=always -v /data:/data -w /data/bert -dt continuumio/anaconda3:latest /bin/bash
